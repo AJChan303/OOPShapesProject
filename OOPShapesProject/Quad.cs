@@ -17,6 +17,10 @@ namespace OOPShapesProject {
             this.side4 = side_d;
         }
 
+        public virtual int Area() {
+            throw new NotImplementedException("Cannot calc area of quad!");
+        }
+
         public int GetPerimeter() {
             return side1 + side2 + side3 + side4;
         }
